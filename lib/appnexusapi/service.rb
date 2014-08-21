@@ -36,10 +36,10 @@ class AppnexusApi::Service
 
   def get(params={})
     return_response = params.delete(:return_response) || false
-    params = {
-      "num_elements" => 100,
-      "start_element" => 0
-    }.merge(params)
+    # params = {
+    #   "num_elements" => 100,
+    #   "start_element" => 0
+    # }.merge(params)
     response = @connection.get(uri_suffix, params)
     if return_response
       response
