@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = AppnexusApi::VERSION
 
   gem.add_dependency 'faraday', '~>0.8.7'
-  gem.add_dependency  "multi_json", "~> 1.7.2"
+  gem.add_dependency  "multi_json", "~> 1.10.1"
   gem.add_development_dependency 'bundler', '>= 1.2.0'
 end
