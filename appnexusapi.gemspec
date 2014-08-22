@@ -19,3 +19,4 @@ Gem::Specification.new do |gem|
   gem.add_dependency  "multi_json", "~> 1.10.1"
   gem.add_development_dependency 'bundler', '>= 1.2.0'
 end
+end
